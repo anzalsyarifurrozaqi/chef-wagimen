@@ -12,5 +12,6 @@ public class EnemyAction : MonoBehaviour
     void die()
     {
         Destroy(this.gameObject);
+        EnemyGenerator.instantiate.die = true;
     }
 }

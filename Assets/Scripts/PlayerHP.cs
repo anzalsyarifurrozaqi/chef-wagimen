@@ -13,7 +13,7 @@ public class PlayerHP : MonoBehaviour
    }
     void Update()
     {
-        Debug.Log(health);
+        //Debug.Log(health);
         healthBar.fillAmount = health / maxHealth;
     }
 

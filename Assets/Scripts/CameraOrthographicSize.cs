@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraOrthographicSize : MonoBehaviour
 {
-    GameObject enemy;
-    GameObject player;
+    //GameObject enemy;
+    //GameObject player;
     CameraFollow pos;
     float objectDistance;
     float orthographicSize = 5;
@@ -15,19 +13,21 @@ public class CameraOrthographicSize : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemy = GameObject.FindWithTag("Enemy");
-        player = GameObject.FindWithTag("Player");
+        //enemy = GameObject.FindWithTag("Enemy");
+        //player = GameObject.FindWithTag("Player");
         pos = GetComponent<CameraFollow>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (enemy.transform.position.x > player.transform.position.x)
-            objectDistance = Mathf.Abs(enemy.transform.position.x - player.transform.position.x);
-        else
-            objectDistance = Mathf.Abs(player.transform.position.x - enemy.transform.position.x);
-        
+        //if (enemy.transform.position.x > player.transform.position.x)
+        //    objectDistance = Mathf.Abs(enemy.transform.position.x - player.transform.position.x);
+        //else
+        //    objectDistance = Mathf.Abs(player.transform.position.x - enemy.transform.position.x);
+
+        objectDistance = EnemyGenerator.instantiate.distance;
+        Debug.Log(objectDistance);
         increaseOrthographicSize();
     }
 
