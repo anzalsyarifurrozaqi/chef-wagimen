@@ -1,23 +1,26 @@
 fileFormatVersion: 2
-guid: 7ae779201917b4f45bcbc10b7d479c7c
+guid: c800af35324e3ae479ac3eb693c45e8a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: wagimen_0
-    21300002: wagimen_1
-    21300004: wagimen_2
-    21300006: wagimen_3
-    21300008: wagimen_4
-    21300010: wagimen_5
-    21300012: wagimen_6
-    21300014: wagimen_7
-    21300016: wagimen_8
-    21300018: wagimen_9
-    21300020: wagimen_10
-    21300022: wagimen_11
-    21300024: wagimen_12
-    21300026: wagimen_13
-    21300028: wagimen_14
-    21300030: wagimen_15
+    21300000: Button Renggang_0
+    21300002: Button Renggang_1
+    21300004: Button Renggang_2
+    21300006: Button Renggang_3
+    21300008: Button Renggang_4
+    21300010: Button Renggang_5
+    21300012: Button Renggang_6
+    21300014: Button Renggang_7
+    21300016: Button Renggang_8
+    21300018: Button Renggang_9
+    21300020: Button Renggang_10
+    21300022: Button Renggang_11
+    21300024: Button Renggang_12
+    21300026: Button Renggang_13
+    21300028: Button Renggang_14
+    21300030: Button Renggang_15
+    21300032: Button Renggang_16
+    21300034: Button Renggang_17
+    21300036: Button Renggang_18
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -97,7 +100,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -111,321 +114,381 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wagimen_0
+      name: Button Renggang_0
       rect:
         serializedVersion: 2
-        x: 695
-        y: 2106
-        width: 716
-        height: 771
-      alignment: 9
-      pivot: {x: 0.53008026, y: 0.22065468}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7c593d65d97b1940a33224b184d3b2b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wagimen_1
-      rect:
-        serializedVersion: 2
-        x: 939
-        y: 1497
-        width: 234
-        height: 700
+        x: 52
+        y: 921
+        width: 121
+        height: 116
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07fe9529a168a4845bf13f463ead7efe
+      spriteID: 12ba93664a1440f439cb931732ba0da2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_2
+      name: Button Renggang_1
       rect:
         serializedVersion: 2
-        x: 2021
-        y: 2096
-        width: 684
-        height: 833
-      alignment: 9
-      pivot: {x: 0.49999964, y: 0.15095305}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbafd91c8304f7d42927ca0bb588a708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wagimen_3
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 1705
-        width: 220
-        height: 337
-      alignment: 9
-      pivot: {x: 0.69579494, y: 0.8515013}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba60fdff49b6e8f4185bd9aff48291c0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wagimen_4
-      rect:
-        serializedVersion: 2
-        x: 1262
-        y: 1673
-        width: 219
-        height: 335
-      alignment: 9
-      pivot: {x: 0.6966887, y: 0.78930885}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae3db61ae19da944a8fb33482014bef2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wagimen_5
-      rect:
-        serializedVersion: 2
-        x: 2049
-        y: 1098
-        width: 517
-        height: 998
+        x: 298
+        y: 917
+        width: 246
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b422351fb5757b4c8fb15706fb6744f
+      spriteID: be3242daa727f5240bf83128ed6ecbaf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_6
+      name: Button Renggang_2
       rect:
         serializedVersion: 2
-        x: 592
-        y: 1349
-        width: 222
-        height: 321
-      alignment: 9
-      pivot: {x: 0.35447624, y: 0.86902124}
+        x: 714
+        y: 336
+        width: 427
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24feb9ac241984147b1fc4a648bc7862
+      spriteID: 9af874e510c070b4b916f91ca7600c47
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_7
+      name: Button Renggang_3
       rect:
         serializedVersion: 2
-        x: 885
-        y: 955
-        width: 360
-        height: 511
-      alignment: 9
-      pivot: {x: 0.3803472, y: 0.81610715}
+        x: 1238
+        y: 331
+        width: 427
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf2523a364159c84ab2ef02a3c164e42
+      spriteID: d69368b8bd928ba4f874f85280f8c4e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_8
+      name: Button Renggang_4
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 1382
-        width: 227
-        height: 289
-      alignment: 9
-      pivot: {x: 0.20479581, y: 0.89871794}
+        x: 53
+        y: 777
+        width: 157
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e085af9a45460b4cafdccf1dbbbbd6c
+      spriteID: 32960ab78798a8a468fbb8aeeef62e70
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_9
+      name: Button Renggang_5
       rect:
         serializedVersion: 2
-        x: 1516
-        y: 1464
-        width: 424
-        height: 145
-      alignment: 9
-      pivot: {x: 0.042836603, y: 0.27719727}
+        x: 306
+        y: 776
+        width: 246
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17f2cc15968a81c4fa599389f863edeb
+      spriteID: 2ea3cf1c397fe024c8d7be3b86391cfd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_10
+      name: Button Renggang_6
       rect:
         serializedVersion: 2
-        x: 579
-        y: 955
-        width: 270
-        height: 354
-      alignment: 9
-      pivot: {x: 0.8190735, y: 0.8650416}
+        x: 53
+        y: 620
+        width: 157
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411e50c612fb696459235ed157b8a3f1
+      spriteID: 11073d44848972445b3a53339ec91b55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_11
+      name: Button Renggang_7
       rect:
         serializedVersion: 2
-        x: 1266
-        y: 922
-        width: 267
-        height: 355
-      alignment: 9
-      pivot: {x: 0.78232574, y: 0.83367836}
+        x: 308
+        y: 618
+        width: 248
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65323de881c38f54fac554ccf13ab1b5
+      spriteID: 61453f64c4be6da409b284700bc9a167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_12
+      name: Button Renggang_8
       rect:
         serializedVersion: 2
-        x: 1889
-        y: 569
-        width: 214
-        height: 766
-      alignment: 9
-      pivot: {x: 0.49999943, y: 0.9076935}
+        x: 51
+        y: 447
+        width: 188
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84552defc89e4a84f90820567977e505
+      spriteID: b145c624fbc5fa047b6f9a702bfd24dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_13
+      name: Button Renggang_9
       rect:
         serializedVersion: 2
-        x: 2509
-        y: 664
-        width: 326
-        height: 710
-      alignment: 9
-      pivot: {x: 0.30180123, y: 0.90951496}
+        x: 317
+        y: 438
+        width: 246
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a75ed9b02db89c4f8b51927c35a739b
+      spriteID: d785e1d9a8da45747af59ab1a0233154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_14
+      name: Button Renggang_10
       rect:
         serializedVersion: 2
-        x: 462
-        y: 513
-        width: 462
-        height: 388
-      alignment: 9
-      pivot: {x: 0.7612208, y: 0.9079555}
+        x: 50
+        y: 319
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab563e9c1ad6b7469503c680e3d4422
+      spriteID: b9d07ce38b142f84a8a2e89e5ea6f8c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wagimen_15
+      name: Button Renggang_11
       rect:
         serializedVersion: 2
-        x: 1145
-        y: 471
-        width: 407
-        height: 395
-      alignment: 9
-      pivot: {x: 0.87042284, y: 0.8544134}
+        x: 128
+        y: 318
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 639c8b0f50d542e419c0c0f8eef1186b
+      spriteID: 89d7a628570e5df4081c5ac2b8b8afb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_12
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 273
+        width: 247
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b962f97c9ec544fb989be3bf5a9e61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 110
+        width: 231
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577c6a73303a704db8b413518f5765c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 103
+        width: 256
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044b19c99eca4f40b1736604196ba65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_15
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 63
+        width: 231
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fc11f8d1975174984bbccbc7fa1e65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_16
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 62
+        width: 255
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7e7bd0cb52bff4f8b397ff3628713f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_17
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 75
+        width: 231
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8fd4fcbe31e6d42881c0d0a8eb6bd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Renggang_18
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 63
+        width: 255
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95521d1cde2d3064288dd58749578c90
       vertices: []
       indices: 
       edges: []
@@ -433,7 +496,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6eaa17950b35efd42974685acc9a6090
+    spriteID: 7282993c4ee5b754dadd8fd61286697b
     vertices: []
     indices: 
     edges: []
