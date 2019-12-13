@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: 7ae779201917b4f45bcbc10b7d479c7c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wagimen_0
+    21300002: wagimen_1
+    21300004: wagimen_2
+    21300006: wagimen_3
+    21300008: wagimen_4
+    21300010: wagimen_5
+    21300012: wagimen_6
+    21300014: wagimen_7
+    21300016: wagimen_8
+    21300018: wagimen_9
+    21300020: wagimen_10
+    21300022: wagimen_11
+    21300024: wagimen_12
+    21300026: wagimen_13
+    21300028: wagimen_14
+    21300030: wagimen_15
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wagimen_0
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2106
+        width: 716
+        height: 771
+      alignment: 9
+      pivot: {x: 0.53008026, y: 0.22065468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c593d65d97b1940a33224b184d3b2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_1
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1497
+        width: 234
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fe9529a168a4845bf13f463ead7efe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_2
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 2096
+        width: 684
+        height: 833
+      alignment: 9
+      pivot: {x: 0.49999964, y: 0.15095305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbafd91c8304f7d42927ca0bb588a708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1705
+        width: 220
+        height: 337
+      alignment: 9
+      pivot: {x: 0.69579494, y: 0.8515013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60fdff49b6e8f4185bd9aff48291c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_4
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1673
+        width: 219
+        height: 335
+      alignment: 9
+      pivot: {x: 0.6966887, y: 0.78930885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3db61ae19da944a8fb33482014bef2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_5
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1098
+        width: 517
+        height: 998
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b422351fb5757b4c8fb15706fb6744f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1349
+        width: 222
+        height: 321
+      alignment: 9
+      pivot: {x: 0.35447624, y: 0.86902124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24feb9ac241984147b1fc4a648bc7862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_7
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 955
+        width: 360
+        height: 511
+      alignment: 9
+      pivot: {x: 0.3803472, y: 0.81610715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2523a364159c84ab2ef02a3c164e42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_8
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1382
+        width: 227
+        height: 289
+      alignment: 9
+      pivot: {x: 0.20479581, y: 0.89871794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e085af9a45460b4cafdccf1dbbbbd6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_9
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1464
+        width: 424
+        height: 145
+      alignment: 9
+      pivot: {x: 0.042836603, y: 0.27719727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f2cc15968a81c4fa599389f863edeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_10
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 955
+        width: 270
+        height: 354
+      alignment: 9
+      pivot: {x: 0.8190735, y: 0.8650416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411e50c612fb696459235ed157b8a3f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_11
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 922
+        width: 267
+        height: 355
+      alignment: 9
+      pivot: {x: 0.78232574, y: 0.83367836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65323de881c38f54fac554ccf13ab1b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_12
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 569
+        width: 214
+        height: 766
+      alignment: 9
+      pivot: {x: 0.49999943, y: 0.9076935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84552defc89e4a84f90820567977e505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_13
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 664
+        width: 326
+        height: 710
+      alignment: 9
+      pivot: {x: 0.30180123, y: 0.90951496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a75ed9b02db89c4f8b51927c35a739b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 513
+        width: 462
+        height: 388
+      alignment: 9
+      pivot: {x: 0.7612208, y: 0.9079555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab563e9c1ad6b7469503c680e3d4422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagimen_15
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 471
+        width: 407
+        height: 395
+      alignment: 9
+      pivot: {x: 0.87042284, y: 0.8544134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639c8b0f50d542e419c0c0f8eef1186b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6eaa17950b35efd42974685acc9a6090
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
