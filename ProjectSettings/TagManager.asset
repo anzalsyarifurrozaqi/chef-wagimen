@@ -9,6 +9,7 @@ TagManager:
   - Knife
   - Player Health
   - telur
+  - wit
   layers:
   - Default
   - TransparentFX

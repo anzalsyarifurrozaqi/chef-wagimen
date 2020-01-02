@@ -68,11 +68,15 @@
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\GameGenerator.cs" />
      <Compile Include="Assets\Scripts\GlobalVariable.cs" />
+     <Compile Include="Assets\Scripts\KeboMovement.cs" />
+     <Compile Include="Assets\Scripts\LombokAttack.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
+     <Compile Include="Assets\Scripts\Pemicu.cs" />
      <Compile Include="Assets\Scripts\PlayerAction.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerHP.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PohonAction.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\sample1.cs" />
      <Compile Include="Assets\Scripts\ToBoss.cs" />
