@@ -16,13 +16,10 @@ public class Pemicu : MonoBehaviour
     {
         
     }
-    void OnTriggerEnter2D (Collider2D other)
+    void OnTriggerExit2D (Collider2D other)
     {
         if (other.gameObject.CompareTag("Player")) {
             animator.SetBool("isJatuh", true);
-        }
-        else{
-            animator.SetBool("isJatuh", false);
-        }
+        }        
     }
 }

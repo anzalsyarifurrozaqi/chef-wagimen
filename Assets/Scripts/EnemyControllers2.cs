@@ -27,7 +27,7 @@ public class EnemyControllers2 : MonoBehaviour
     {
         
         
-        if (objectDistance < 95 && EnemyGenerator.instantiate.i == indexEnemy)
+        if (objectDistance < 50 && EnemyGenerator.instantiate.i == indexEnemy)
         {
             GetComponent<EnemyMovement>().enabled = true;
             animator.SetBool("isWalking", true);
