@@ -1295,6 +1295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ae713677f3caa44b0f405f064f0642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemys: []
   distance: 0
   die: 0
   i: 0
@@ -1849,8 +1850,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  stoppingDistance: 6
+  stoppingDistance: 0
+  damage: 20
+  playerHP: {fileID: 269966588}
   retreatDistance: 0
+  startDazedTime: 1
 --- !u!50 &808645773
 Rigidbody2D:
   serializedVersion: 4

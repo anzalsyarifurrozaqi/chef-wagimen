@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     Rigidbody2D rb;
     public LayerMask groundLayers;
+    Animator animator;
+
 
     void awake()
     {
@@ -19,31 +21,51 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f),
-                        new Vector2(transform.position.x + 0.5f, transform.position.y - 0.51f), groundLayers);
+                        new Vector2(transform.position.x + 0.5f, transform.position.y - 2.79f), groundLayers);
        
         //Debug.Log(isGrounded);
         if (moveright)
         {
-            /*transform.localScale = new Vector3(1, 1, 1);*/
+            transform.localScale = new Vector3(1, 1, 1);
             rb.velocity = new Vector3(moveSpeed, rb.velocity.y, 0f);
-            // myAnim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+            animator.SetBool("isWalking", true);
         }
+        
+
         if (moveleft)
         {
-            /*transform.localScale = new Vector3(-1, 1, 1);*/
+            transform.localScale = new Vector3(-1, 1, 1);
             rb.velocity = new Vector3(-moveSpeed, rb.velocity.y, 0f);
-            // myAnim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+            animator.SetBool("isWalking", true);
         }
+        
         if (moveJump && isGrounded)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpSpeed, 0f);
-            // jumpSound.Play();
+            animator.SetBool("transisi", true);
+            
         }
+        else if (moveJump && !isGrounded)
+        {
+            animator.SetBool("transisi", false);
+            animator.SetBool("isJumping", true);
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
+            animator.SetBool("transisi", false);
+        }
+
+        if (moveleft == false && moveright == false)
+        {
+            animator.SetBool("isWalking", false);        
+        }        
     }
 }
