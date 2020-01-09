@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BawangController.cs" />
-     <Compile Include="Assets\Scripts\Boss1.cs" />
+     <Compile Include="Assets\Scripts\BossAction.cs" />
      <Compile Include="Assets\Scripts\BossAtack.cs" />
      <Compile Include="Assets\Scripts\BossController.cs" />
      <Compile Include="Assets\Scripts\BossMovement.cs" />
@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\EnemyControllers2.cs" />
      <Compile Include="Assets\Scripts\EnemyGenerator.cs" />
+     <Compile Include="Assets\Scripts\EnemyHP.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\GameGenerator.cs" />
      <Compile Include="Assets\Scripts\GlobalVariable.cs" />
