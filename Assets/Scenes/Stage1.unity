@@ -2509,7 +2509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad207d21c9a690b41acf51340d8fcb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1980242770}
+  target: {fileID: 1296306650}
   smoothTime: 0.3
   posY: 1
   minX: -19.9
@@ -5896,7 +5896,7 @@ MonoBehaviour:
   moveright: 0
   isGrounded: 0
   jumpSpeed: 8
-  moveSpeed: 1.5
+  moveSpeed: 8
   groundLayers:
     serializedVersion: 2
     m_Bits: 256

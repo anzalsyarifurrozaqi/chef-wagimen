@@ -24,6 +24,17 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Lumpur"))
+        {
+            moveSpeed = 2;
+        }
+        else{
+            moveSpeed = 8;
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
