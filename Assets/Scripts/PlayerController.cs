@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instantiate;
     private PlayerMovement playerMovement;
     private PlayerAction playerAction;
+    public GameObject pisau;
+    public GameObject player;
+    public GameObject[] Enemys;
     void Start()
-    {
+    {        
         Time.timeScale = 1;
         playerMovement = FindObjectOfType<PlayerMovement>();
         playerAction = FindObjectOfType<PlayerAction>();
+        Enemys = GameObject.FindGameObjectsWithTag("Enemy");
+
+        if (instantiate == null)
+        {
+            instantiate = this;
+        }
     }
 
     public void LeftArrow() {
@@ -40,5 +50,19 @@ public class PlayerController : MonoBehaviour
     public void releaseAtackButton()
     {
         playerAction.atack = false;
+    }
+
+    public void atackLemparButton()
+    {
+        playerAction.atackLempar = true;
+        if (EnemyGenerator.instantiate.distance < 15) 
+        {
+            Instantiate(pisau, player.transform.position, Quaternion.identity);
+        }            
+            
+    }
+    public void releaseAtackLemparButton()
+    {
+        playerAction.atackLempar = false;
     }
 }

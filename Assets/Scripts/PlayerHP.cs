@@ -2,11 +2,11 @@
 using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
-{
-    GlobalVariable globalVariable;
+{    
+    GlobalVariable globalVariable;    
     public float health;
     static float maxHealth = 100;
-    Image healthBar;
+    Image healthBar;    
 
     void Start()
    {
@@ -27,11 +27,13 @@ public class PlayerHP : MonoBehaviour
 
     private void GameOver()
     {
+        
         GameObject gameOverParent = GameObject.Find("Canvas");
         GameObject gameOver = gameOverParent.transform.Find("Game Over Panel").gameObject;
         if (health <= 0)
         {
-            Destroy(GameObject.Find("GlobalVariable"));
+            Destroy(GameObject.Find("GlobalVariable"));   
+            PlayerAction.instantiate.dead = true;
             gameOver.SetActive(true);            
         } else
         {

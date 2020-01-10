@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-    if(transform.position.x == target.x && transform.position.y == target.y){
+        if(transform.position.x == target.x && transform.position.y == target.y){
            DestroyProjectile();
         }
         

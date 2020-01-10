@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class PlayerAction : MonoBehaviour
 {
+    public static PlayerAction instantiate;
     Animator myAnim;
     public bool atack;
+    public bool atackLempar;
+    public bool dead;    
     // Start is called before the first frame update
     void Start()
     {
+        if (instantiate == null)
+        {
+            instantiate = this;
+        }
         myAnim = GetComponent<Animator>();
     }
 
@@ -22,5 +29,19 @@ public class PlayerAction : MonoBehaviour
         {
             myAnim.SetBool("isAtack", false);
         }
+
+        if (atackLempar)
+        {
+            myAnim.SetBool("isAtackLempar", true);
+        } else
+        {
+            myAnim.SetBool("isAtackLempar", false);
+        }
+
+        Debug.Log(dead);
+        if (dead)
+        {            
+            myAnim.SetBool("isDead", true);
+        }        
     }
 }
