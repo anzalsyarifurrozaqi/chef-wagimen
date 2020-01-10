@@ -21,7 +21,8 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Setting");
     }
     public void OnExit(){
-        SceneManager.LoadScene("Exit");
+        Debug.Log("Quit Game");
+        Application.Quit();
     }
     public void OnStage1(){
         SceneManager.LoadScene("Stage1");
