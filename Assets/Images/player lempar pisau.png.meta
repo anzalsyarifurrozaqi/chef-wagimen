@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: e9ae748c3a974c44f8f5de6a1ec42619
+guid: 5ae3c0cd75b3be2469f19512401b1d44
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: player lempar pisau_0
+    21300002: player lempar pisau_1
+    21300004: player lempar pisau_2
+    21300006: player lempar pisau_3
+    21300008: player lempar pisau_4
+    21300010: player lempar pisau_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,13 +75,144 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: player lempar pisau_0
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1437
+        width: 189
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b7884ae6c70c740b0f405ac9c8af18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player lempar pisau_1
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1437
+        width: 271
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28edab498fbc88a4f86626795f8bf868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player lempar pisau_2
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1437
+        width: 233
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50672122ba7c2dc4c8bdd855b79b7d70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player lempar pisau_3
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1440
+        width: 315
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59da7f2dd477db1479cbbcf7bb137dcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player lempar pisau_4
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1439
+        width: 249
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84f90b100897284789c73317cae4b9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player lempar pisau_5
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 1438
+        width: 199
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50084898eb59c1488dd7b50348681de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 874a30e3a714d344e99abee75aef1e7d
+    spriteID: fca5ec30d703d3d479564753b186b8e4
     vertices: []
     indices: 
     edges: []
